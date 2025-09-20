@@ -1,0 +1,69 @@
+# -------- Build directories (CMake, Ninja, Make, IDEs)
+build/
+build-*/
+out/
+bin/
+lib/
+cmake-build-*/
+
+# -------- CMake files
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+_deps/
+*.cmake
+# keep top-level CMakeLists.txt (tracked by default)
+
+# -------- Compiler outputs
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# -------- Debugging / profiling
+*.pdb
+*.dSYM/
+*.dSYM.zip
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+core
+
+# -------- IDE/editor noise
+# If you want to commit VS Code configs (tasks/launch), comment these out.
+.vscode/
+.idea/
+.vs/
+*.user
+*.swp
+*.swo
+
+# -------- OS noise
+.DS_Store
+Thumbs.db
+
+# -------- Env / secrets
+.env
+.env.*
+!.env.example
+
+# -------- Logs
+*.log
+
+# -------- Data
+data/*
+!data/.gitkeep
+!data/sample.csv   # keep a tiny sample for demos
+
+# -------- Misc
+*.cache
