@@ -67,3 +67,12 @@ data/*
 
 # -------- Misc
 *.cache
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data (keep one tiny sample if you want)
+data/*
+!data/.gitkeep
